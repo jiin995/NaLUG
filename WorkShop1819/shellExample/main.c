@@ -40,9 +40,9 @@ int main() {
 		if(!strcmp(args[0], "exit")){
 			return 0;//exit(0);
 		}
+		
 		if(strcmp(args[1],"&"))
-		//Se ho almeno due parametri controllo 
-		//if((n>2) && (strcmp(args[1],"&")==0))
+		//Se ho almeno due parametri controllo
 			{
 				//printf("Eseguo BackGroud \n");
 				for(int i=1;i<9;i++)

@@ -1,5 +1,6 @@
 #include "procedure.h"
 
+
 int execback (char *programma,char *args[])
 {
 	int pidback=fork();
