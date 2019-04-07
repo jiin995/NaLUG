@@ -6,10 +6,16 @@
 #
 #-----------------------------------------------------------------------------
 
+usage(){
+cat <<EOF
+		Uso :\n\t./count.sh WORD PATH
+		Esempio :\n\t./count.sh 123456 DataSets
+EOF
+}
+
 #Verifico che ci siano esattamente due parametri in input
 if [ $# -ne 2 ]; then
-	echo -e "Uso :\n\t./count.sh WORD PATH"
-	echo -e "Esempio :\n\t./count.sh 123456 DataSets"
+	usage
 	exit
 fi
 

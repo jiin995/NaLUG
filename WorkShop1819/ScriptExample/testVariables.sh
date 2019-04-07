@@ -1,11 +1,16 @@
 #!/bin/bash
+#-----------------------------------------------------------------------------
+# NaLUG@UniNA
+# 
+# Esempi di definizioni e uso variabili in bash
+#
+#-----------------------------------------------------------------------------
+
 
 	#Variabili
 	X="NaLUG"
 	Y="Workshop"
 	Z=2019
-	#Array
-	#STRINGA=($X $Y $Z)
 
 	#echo ${STRINGA[*]}
 	echo -e "\nEcco i valori delle variabili X,Y e Z"	
@@ -20,6 +25,7 @@
 	echo "Y = $Y"
 	echo -e "Z = $Z \n"
 
+	
 	#Array
 	X=("NaLUG" "WORKSHOP" 2019)
 	echo "Array"
